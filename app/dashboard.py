@@ -1216,19 +1216,6 @@ with k6:
 
 
 # ============================================================
-# BUSINESS IMPACT EXPLANATION
-# ============================================================
-
-st.info(
-    "💡 **Business Impact:** "
-    "The supplied data contains actual SKU list prices "
-    "but does not contain unit cost. Therefore FORESIGHT "
-    "uses the actual list price for inventory valuation "
-    "and does not create an artificial unit cost."
-)
-
-
-# ============================================================
 # DEMAND FORECAST
 # ============================================================
 
