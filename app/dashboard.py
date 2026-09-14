@@ -927,10 +927,6 @@ df["Forecast_Upper_80"] = (
 # SIDEBAR
 # ============================================================
 
-st.sidebar.title(
-    "🎨 Appearance"
-)
-
 st.sidebar.divider()
 
 st.sidebar.subheader(
